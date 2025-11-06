@@ -1,4 +1,5 @@
-from turtle import Turtle, done
+from turtle import Turtle
+import turtle
 
 t1 = Turtle()
 t2 = Turtle()
@@ -13,4 +14,4 @@ t1.left(90)
 t2.left(90)
 t2.forward(100)
 
-done()
+turtle.done()
