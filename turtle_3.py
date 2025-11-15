@@ -10,3 +10,6 @@ def start(t:Turtle, my_color, my_width, my_size):
         t.forward(my_size)
         t.left(144)
     t.end_fill()
+
+    done()
+

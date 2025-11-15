@@ -4,7 +4,7 @@ t = Turtle()
 
 t.color('red')
 t.width(5)
-
+ 
 
 t.begin_fill()
 for x in range(5):
