@@ -1,6 +1,6 @@
 from turtle import *
 
-def start(t:Turtle, my_color, my_width, my_size):
+def start(t:Turtle, my_color:str, my_width:float, my_size:float):
     t.color(my_color)
     t.width(my_width)
 
@@ -13,3 +13,5 @@ def start(t:Turtle, my_color, my_width, my_size):
 
     done()
 
+tur_t_= Turtle()
+start(tur_t_, 'green', '')

@@ -5,6 +5,8 @@ t2 = Turtle()
 
 t1.color("orange")
 t2.color("blue")
+t1.shape("turtle")
+t2.shape("square")
 
 t1.forward(100)
 t1.left(90)
